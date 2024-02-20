@@ -10,7 +10,7 @@ api = Api(app)
 
 class Test(Resource):
     def get(self):
-        return 'Welcome to, Test App API!'
+        return 'HI, Welcome to PureH2O Machine Learning Model, This is a introduction api'
 
     def post(self):
         try:
