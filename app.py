@@ -43,4 +43,4 @@ api.add_resource(GetPredictionOutput,'/getPredictionOutput')
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='51.21.127.105', port=port)
