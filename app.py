@@ -42,5 +42,5 @@ api.add_resource(Test,'/')
 api.add_resource(GetPredictionOutput,'/getPredictionOutput')
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    app.run(host='ec2-51-21-127-105.eu-north-1.compute.amazonaws.com', port=port)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
